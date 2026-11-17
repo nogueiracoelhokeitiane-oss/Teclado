@@ -264,7 +264,7 @@
         [["fa",1],["fa",1],["mi",1],["mi",1],["re",1],["re",1],["do",2]],
       ],
       baixo: ["do","do","fa","do", "fa","do","sol","do", "do","fa","do","sol", "do","fa","do","sol", "do","do","fa","do", "fa","do","sol","do"]},
-    dificil: {titulo: "Jingle Bells (bônus)", bpm: 112, voltas: 1, sinos: true, neve: true,
+    dificil: {titulo: "Jingle Bells (bônus)", bpm: 112, voltas: 1, sinos: false, neve: true,
       frases: [
         [["mi",1],["mi",1],["mi",2],["mi",1],["mi",1],["mi",2]],
         [["mi",1],["sol",1],["do",1.5],["re",.5],["mi",4]],
@@ -1602,7 +1602,7 @@
     const AV = {
       facil: ["Nível Fácil", "Dó, ré, mi, fá: a primeira música, com notas curtinhas e só cinco teclas."],
       medio: ["Nível Médio", "Brilha, brilha, estrelinha: uma nota por tempo e duas teclas novas, sol e lá. Comece no modo Aprender."],
-      dificil: ["Nível Difícil (bônus)", "Jingle Bells: mais rápida, com notas longas, notas bem curtinhas e o mi repetido muitas vezes. Conte junto com os sininhos!"],
+      dificil: ["Nível Difícil (bônus)", "Jingle Bells: mais rápida, com notas longas, notas bem curtinhas e o mi repetido muitas vezes."],
     };
     mostrarAviso(...AV[b.dataset.nivel], "Começar");
   }));
